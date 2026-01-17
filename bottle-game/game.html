@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bottle Puzzle</title>
+  <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+
+<h2 id="levelTitle"></h2>
+<p>Matches: <span id="matches">0</span></p>
+
+<div id="bottles"></div>
+
+<!-- Congratulations Overlay -->
+<div id="congrats" style="display:none;">
+  <h1>🎉 Congratulations! 🎉</h1>
+  <p>You solved this level</p>
+</div>
+
+<button id="nextLevelBtn" style="display:none;">Next Level</button>
+<button onclick="window.location.href='levels.html'">Back to Levels</button>
+
+<script src="js/state.js"></script>
+<script src="js/game.js"></script>
+<!-- Bubble Effect -->
+<div id="bubbles"></div>
+
+</body>
+</html>
